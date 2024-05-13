@@ -1,0 +1,41 @@
+<!--Завдання 3. Створити html файл з компонентом «повна версія картки викладача» з полями: 
+    Повне ім’я, стать, вік, email, телефон, країна, місто, коментар та карта. Додати до компонента data-attribute з кольором фону. 
+    Виконуючи завдання використовувати відповідні семантичні теги.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third</title>
+</head>
+<body>
+    <div class="teacher-card" data-background-color="#ffffff">
+        <h2>Full teacher's card</h2>
+
+        <section>
+            <h3>Personal information</h3>
+            <p>Full name: Larysa Petrivna</p>
+            <p>Gender: Female</p>
+            <p>Age: 34</p>
+        </section>
+
+        <section>
+            <h3>Contacts</h3>
+            <p>Email: l.petrivna@ukma.edu.ua</p>
+            <p>Phone number: +38-012-345-67-89</p>
+        </section>
+
+        <section>
+            <h3>Location</h3>
+            <p>Country: Ukraine</p>
+            <p>City: Kyiv</p>
+            <iframe src="https://www.google.com.ua/maps/place/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82+%C2%AB%D0%9A%D0%B8%D0%B5%D0%B2%D0%BE-%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%8F%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%C2%BB/@50.4645895,30.5186401,17.87z/data=!4m6!3m5!1s0x40d4ce3f8783f067:0x20e77fb079389395!8m2!3d50.4644572!4d30.5193942!16zL20vMDVocDRy?hl=ru&entry=ttu">Address</iframe>
+        </section>
+
+        <section>
+            <h3>Comment</h3>
+            <p>Young and ambitious teacher</p>
+        </section>
+    </div>
+</body>
+</html>
